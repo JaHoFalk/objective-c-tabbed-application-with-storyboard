@@ -23,6 +23,8 @@
 		04EB83EA166173F300B8C844 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB83E9166173F300B8C844 /* SecondViewController.m */; };
 		04EB83EC166173F300B8C844 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB83EB166173F300B8C844 /* second.png */; };
 		04EB83EE166173F300B8C844 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB83ED166173F300B8C844 /* second@2x.png */; };
+		04EB83F6166179B100B8C844 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB83F5166179B100B8C844 /* CustomTableViewCell.m */; };
+		04EB83F916617DE400B8C844 /* CustomWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB83F816617DE400B8C844 /* CustomWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,10 @@
 		04EB83E9166173F300B8C844 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		04EB83EB166173F300B8C844 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		04EB83ED166173F300B8C844 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		04EB83F4166179B100B8C844 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		04EB83F5166179B100B8C844 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		04EB83F716617DE400B8C844 /* CustomWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomWebViewController.h; sourceTree = "<group>"; };
+		04EB83F816617DE400B8C844 /* CustomWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomWebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,10 @@
 				04EB83D5166173F300B8C844 /* AppDelegate.h */,
 				04EB83D6166173F300B8C844 /* AppDelegate.m */,
 				04EB83DE166173F300B8C844 /* MainStoryboard.storyboard */,
+				04EB83F716617DE400B8C844 /* CustomWebViewController.h */,
+				04EB83F816617DE400B8C844 /* CustomWebViewController.m */,
+				04EB83F4166179B100B8C844 /* CustomTableViewCell.h */,
+				04EB83F5166179B100B8C844 /* CustomTableViewCell.m */,
 				04EB83E1166173F300B8C844 /* FirstViewController.h */,
 				04EB83E2166173F300B8C844 /* FirstViewController.m */,
 				04EB83E4166173F300B8C844 /* first.png */,
@@ -198,6 +208,8 @@
 				04EB83D7166173F300B8C844 /* AppDelegate.m in Sources */,
 				04EB83E3166173F300B8C844 /* FirstViewController.m in Sources */,
 				04EB83EA166173F300B8C844 /* SecondViewController.m in Sources */,
+				04EB83F6166179B100B8C844 /* CustomTableViewCell.m in Sources */,
+				04EB83F916617DE400B8C844 /* CustomWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

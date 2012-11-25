@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SecondViewController.h"
 
-@interface FirstViewController : UIViewController
+@interface FirstViewController : UIViewController<UISearchBarDelegate, UITableViewDelegate, UITableViewDataSource>
+@property (weak, nonatomic) IBOutlet UITableView *myTableView;
 
 @end
